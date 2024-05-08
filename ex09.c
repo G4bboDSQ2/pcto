@@ -2,18 +2,25 @@
 
 int main()
 {
-    int a, b;
+    int a, b=2;
     int c=0;    
     printf("SCRIVI UN NUMERO E TI DIRÒ SE È PRIMO\n");
     scanf("%d", &a);
 
-    while(a/a==1 && a/1==a && a%b!=0 )  //RIPETE UNA CONDIZIONE FINO A QUANDO ESSA NON DIVENTA FALSA//
+    while(b<a)  //RIPETE UNA CONDIZIONE FINO A QUANDO ESSA NON DIVENTA FALSA//
     {
-        c=c+1;
+        if (a%b==0)
+        {
+            c++;
+        }
+        b++;
+    }
+    if (c==0)
+    {
         printf("È PRIMO");
     }
-    if (a%b==0)
+    else 
     {
-        printf("NON È PRIMO");
+        printf("NON È PRIMO" );
     }
 }
