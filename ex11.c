@@ -53,7 +53,7 @@ void hquiz()
     {
         delprt("Bene... ti consigliamo di utilizzare:\n Kerastase Elixir ultime le Bain (19,80 euro);\nGarnier Ultra dolce Camomilla e Miele (2,49 euro), sia in formato shampoo che in formato balsamo;\nCamomilla Schulz Balsamo Ravvivante (3,49 euro).\n");
     }
-    else if(ans==2)
+    else if(ans==1)
     {
         delprt("Bene ti consigliamo di utilizzare:\n L'Oreal professional serie expert vitamino color (42,99 euro) in formati shampoo, balsamo e spray;\nAlfaparf Lisse maintainance conditioner Keratin therapy (12,90 euro).\n");
     }
